@@ -544,5 +544,10 @@
         <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="CA9EE6" fgColor="FFCAB0" fontStyle="0" />
         <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="99D1DB" fgColor="C6D0F5" fontSize="" fontStyle="1" />
         <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="E78284" fontStyle="0" />
+        <WidgetStyle name="Tab color dark mode 1" styleID="110" bgColor="E5C890" />
+        <WidgetStyle name="Tab color dark mode 2" styleID="111" bgColor="A6D189" />
+        <WidgetStyle name="Tab color dark mode 3" styleID="112" bgColor="81C8BE" />
+        <WidgetStyle name="Tab color dark mode 4" styleID="113" bgColor="EF9F76" />
+        <WidgetStyle name="Tab color dark mode 5" styleID="114" bgColor="CA9EE6" />
     </GlobalStyles>
 </NotepadPlus>

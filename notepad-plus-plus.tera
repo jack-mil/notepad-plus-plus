@@ -552,5 +552,18 @@ whiskers:
         <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="{{ mauve.hex }}" fgColor="FFCAB0" fontStyle="0" />
         <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="{{ sky.hex }}" fgColor="{{ text.hex }}" fontSize="" fontStyle="1" />
         <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="{{ red.hex }}" fontStyle="0" />
+        {% if flavor.light -%}
+        <WidgetStyle name="Tab color 1" styleID="100" bgColor="{{ yellow.hex }}" />
+        <WidgetStyle name="Tab color 2" styleID="101" bgColor="{{ green.hex }}" />
+        <WidgetStyle name="Tab color 3" styleID="102" bgColor="{{ teal.hex }}" />
+        <WidgetStyle name="Tab color 4" styleID="103" bgColor="{{ peach.hex }}" />
+        <WidgetStyle name="Tab color 5" styleID="104" bgColor="{{ mauve.hex }}" />
+        {%- else -%}
+        <WidgetStyle name="Tab color dark mode 1" styleID="110" bgColor="{{ yellow.hex }}" />
+        <WidgetStyle name="Tab color dark mode 2" styleID="111" bgColor="{{ green.hex }}" />
+        <WidgetStyle name="Tab color dark mode 3" styleID="112" bgColor="{{ teal.hex }}" />
+        <WidgetStyle name="Tab color dark mode 4" styleID="113" bgColor="{{ peach.hex }}" />
+        <WidgetStyle name="Tab color dark mode 5" styleID="114" bgColor="{{ mauve.hex }}" />
+        {%- endif %}
     </GlobalStyles>
 </NotepadPlus>
