@@ -38,8 +38,9 @@
 
 1. Download your preferred flavor(s) from [`themes/`](./themes/).
 2. Move downloaded flavor(s) to `%AppData%\Notepad++\themes`.
-3. Select the desired theme in Settings > Style Configurator
-4. To customize the UI colors (non-editor area), follow the instructions for your flavor on this page: [`ui-theme.md`](./ui-theme.md)
+3. To customize the UI colors (non-editor area), follow the instructions for your flavor on this page: [`ui-theme.md`](./ui-theme.md).
+   - This step will automatically select the corresponding editor theme.
+4. Finally, configure your preferred typeface from **Settings** > **Style Configurator** under "Default Style".
 
 ## 💝 Thanks to
 
