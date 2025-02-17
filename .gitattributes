@@ -1,2 +1,5 @@
 themes/* linguist-generated=true
 ui-theme.md linguist-generated=true
+
+*.webp binary
+*.png binary
