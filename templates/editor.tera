@@ -720,11 +720,11 @@ whiskers:
         <!-- Attention : Don't modify the name of any styleID="0" -->
         <WidgetStyle name="Default Style" styleID="32" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="Consolas" fontStyle="0" fontSize="10" />
         <WidgetStyle name="Indent guideline style" styleID="37" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-        <WidgetStyle name="Brace highlight style" styleID="34" fgColor="{{ text.hex }}" bgColor="{{ selected.hex }}" fontName="" fontStyle="1" fontSize="10" />
-        <WidgetStyle name="Bad brace colour" styleID="35" fgColor="{{ crust.hex }}" bgColor="{{ red.hex }}" fontName="" fontStyle="0" fontSize="" />
+        <WidgetStyle name="Brace highlight style" styleID="34" fgColor="{{ text.hex }}" bgColor="{{ selected.hex }}" fontName="" fontStyle="1" fontSize="" />
+        <WidgetStyle name="Bad brace colour" styleID="35" fgColor="{{ crust.hex }}" bgColor="{{ red.hex }}" fontName="" fontStyle="1" fontSize="" />
         <WidgetStyle name="Current line background colour" styleID="0" bgColor="{{ line.hex }}" fgColor="{{ text.hex }}" fontSize="" fontStyle="" />
         <!-- In below rule 'fgColor' attribute for 'Selected text colour' can be unlocked with a enableSelectFgColor.xml file -->
-        <WidgetStyle name="Selected text colour" styleID="0" bgColor="{{ selected.hex }}" fontStyle="0" />
+        <WidgetStyle name="Selected text colour" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ selected.hex }}" fontName="" fontStyle="0" fontSize="" />
         <WidgetStyle name="Multi-selected text color" styleID="0" bgColor="{{ selected.hex }}" />
         <WidgetStyle name="Caret colour" styleID="2069" fgColor="{{ rosewater.hex }}" />
         <WidgetStyle name="Multi-edit carets color" styleID="0" fgColor="{{ rosewater.hex }}" />
@@ -771,6 +771,6 @@ whiskers:
         <WidgetStyle name="Document map" styleID="0" fgColor="{{ sky.hex }}" bgColor="{{ surface2.hex }}" />
         <WidgetStyle name="EOL custom color" styleID="0" fgColor="{{ subtext0.hex }}" />
         <WidgetStyle name="Non-printing characters custom color" styleID="0" fgColor="{{ overlay0.hex }}" />
-        <WidgetStyle name="Global override" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ base.hex}}" fontName="" fontStyle="0" fontSize="10" />
+        <WidgetStyle name="Global override" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ base.hex}}" fontName="" fontStyle="0" fontSize="" />
     </GlobalStyles>
 </NotepadPlus>
