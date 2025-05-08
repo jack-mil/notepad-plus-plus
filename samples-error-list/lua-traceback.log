@@ -1,0 +1,7 @@
+    local status, err = pcall(function () a = 'a'+1 end)
+    print(err)
+     --> stdin:1: attempt to perform arithmetic on a string value
+    
+    local status, err = pcall(function () error("my error") end)
+    print(err)
+     --> stdin:1: my error

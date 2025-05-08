@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File [35m"C:\Users\jack-mil\repos\package-test\test_my_package.py"[0m, line [35m6[0m, in [35m<module>[0m
+    from package_test import *
+[1;35mModuleNotFoundError[0m: [35mNo module named 'package_test'[0m
+Hello from package_test!
+hello from package_test.submodule
+Traceback (most recent call last):
+  File [35m"C:\Users\jack-mil\repos\package-test\test_my_package.py"[0m, line [35m11[0m, in [35m<module>[0m
+    [31mmy_func[0m[1;31m()[0m
+    [31m~~~~~~~[0m[1;31m^^[0m
+  File [35m"C:\Users\jack-mil\repos\package-test\src\package_test\submodule.py"[0m, line [35m7[0m, in [35mmy_func[0m
+    raise NotImplementedError
+[1;35mNotImplementedError[0m
